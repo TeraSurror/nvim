@@ -79,3 +79,5 @@ rt.setup({
         end,
     }, 
 })
+
+require("ibl").setup()

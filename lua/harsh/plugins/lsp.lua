@@ -28,4 +28,6 @@ return {
         config = true
     },
     {'m-demare/hlargs.nvim'},
+    { "lukas-reineke/indent-blankline.nvim", main = "ibl", opts = {} }
+
 }
