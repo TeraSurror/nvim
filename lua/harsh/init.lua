@@ -15,5 +15,7 @@ if not vim.loop.fs_stat(lazypath) then
 end
 vim.opt.rtp:prepend(lazypath)
 
-
 require("lazy").setup("harsh.plugins")
+
+-- vim.cmd('colorscheme monokai')
+vim.cmd('colorscheme kanagawa-wave')

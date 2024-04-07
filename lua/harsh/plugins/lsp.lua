@@ -1,4 +1,5 @@
 return {
+    -- lsp zero defaults
     {'williamboman/mason.nvim'},
     {'williamboman/mason-lspconfig.nvim'},
 
