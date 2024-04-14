@@ -18,4 +18,5 @@ vim.opt.rtp:prepend(lazypath)
 require("lazy").setup("harsh.plugins")
 
 -- vim.cmd('colorscheme monokai')
-vim.cmd('colorscheme kanagawa-wave')
+-- vim.cmd('colorscheme kanagawa-wave')
+vim.cmd('colorscheme vscode')
