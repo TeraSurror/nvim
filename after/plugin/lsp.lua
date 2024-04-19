@@ -32,6 +32,8 @@ require('mason-lspconfig').setup({
         'gopls', -- Go
         'rust_analyzer', -- Rust
         'lua_ls', -- Lua
+        'jdtls', -- Java
+
     },
     handlers = {
         lsp_zero.default_setup,
